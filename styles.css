@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;  /* Full width */
+    max-height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures it covers the area without distortion */
+    display: block;
+    margin: 0 auto;
+}
+
+.banner-container {
+    width: 100%;
+    background-color: #f8f8f8; /* Adjust background color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.item img {
+    width: 80px;  /* Adjust size as needed */
+    height: auto; /* Keeps aspect ratio */
+}
+
+
+header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #0000ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00008b;
+}
+
+footer {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
